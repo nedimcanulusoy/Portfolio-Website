@@ -1,4 +1,4 @@
-* {
+html {
     font-family: "Source Code Pro", monospace;
 }
 
@@ -171,6 +171,59 @@ body #description {
     width: 12%;
     height: auto;
     border: solid 3px #e9967a; /*#96DA01*/
+}
+
+.navbar-aboutme {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-aboutme li {
+    display: inline;
+    float: left;
+}
+
+.navbar-aboutme ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262626;
+}
+
+.navbar-aboutme li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar-aboutme li a.active {
+    color: #fa8072;
+}
+
+.navbar-aboutme li a:hover {
+    color: #fa8072;
+    transition: 1s;
+}
+
+#logo-name {
+    font-style: italic;
+}
+
+#logo-name ul {
+    float: left;
+}
+
+#logo-name li {
+    float: right;
 }
 
 .aboutme-cv{
