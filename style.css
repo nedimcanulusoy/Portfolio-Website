@@ -1,141 +1,215 @@
-html {
-  font-family: "Source Code Pro", monospace;
+* {
+    font-family: "Source Code Pro", monospace;
 }
 
 body {
-  font-weight: lighter;
-  margin: 0;
-  background-color: #262626;
+    font-weight: lighter;
+    margin: 0;
+    background-color: #262626;
 }
 
+<!-- /*INDEX*/ -->
+
 body #myname {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 body #description {
-  font-size: 20px;
-  padding-top: 1%;
+    font-size: 20px;
+    padding-top: 1%;
 }
 
 .center_img {
-  display: block;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20%;
-  width: 12%;
-  height: auto;
-  border: solid 3px #fa8072; /*#96DA01*/
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    width: 12%;
+    height: auto;
+    border: solid 3px #e9967a; /*#96DA01*/
 }
 
 .navbar {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar li {
-  display: inline;
-  float: left;
+    display: inline;
+    float: left;
 }
 
 .navbar ul {
-  float: right;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #262626;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262626;
 }
 
 .navbar li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-  font-size: 22px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 22px;
 }
 
 .navbar li a.active {
-  color: #fa8072;
+    color: #fa8072;
 }
 
 .navbar li a:hover {
-  color: #fa8072;
-  transition: 1s;
+    color: #fa8072;
+    transition: 1s;
 }
 
 #logo-name {
-  font-style: italic;
+    font-style: italic;
 }
 
 #logo-name ul {
-  float: left;
+    float: left;
 }
 
 #logo-name li {
-  float: right;
+    float: right;
 }
 
 #text-main {
-  text-align: center;
+    text-align: center;
 }
 
 #text-main h1 {
-  padding: 0;
-  margin-left: 40%;
-  margin-right: 40%;
-  color: #ffffff;
-  text-align: center;
+    padding: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: #ffffff;
+    text-align: center;
 }
 
 #text-main h2 {
-  margin-left: 25%;
-  margin-right: 25%;
-  box-sizing: border-box;
-  color: #ffffff;
-  text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
 }
 
 .aboutme,
-.cv {
-  text-align: center;
-  display: inline-block;
-  margin-top: 30px;
-  padding: 10px 20px;
-  border: solid 2px #e9967a;
-  border-radius: 6px;
-  outline: none;
+.cv,
+.contact{
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    border: solid 2px #e9967a;
+    border-radius: 6px;
+    outline: none;
 }
 
 .button {
-  text-decoration: none;
-  color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
 }
 
+#text-main .aboutme a:hover,
+#text-main .cv a:hover,
+#text-main .contact a:hover{
+    transition: 1s;
+    color: #fa8072;
+}
+
+#text-main .aboutme:hover,
+#text-main .cv:hover,
+#text-main .contact:hover{
+    cursor: pointer;
+    transition: 1s;
+    background: #404040;
+}
+
+
 .network {
-  text-align: center;
-  margin-top: 50px;
-  padding-top: 20px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 
 .fb,
 .github,
-.linkedin,
-.google {
-  padding-left: 10px;
-  padding-right: 10px;
-  border-bottom: solid 2px #fa8072;
+.linkedin {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: solid 2px #fa8072;
 }
 
 .fb:hover,
 .github:hover,
-.linkedin:hover,
-.google:hover {
-  transition: 1s;
-  opacity: 0.6;
+.linkedin:hover {
+    transition: 0.5s;
+    opacity: 0.6;
+    font-size: 120%;
+}
+
+<!-- /*ABOUTME*/ -->
+
+.left_img {
+    display: block;
+    margin-top: 7%;
+    margin-left: 10%;
+    /*margin-right: auto;*/
+    border-radius: 20%;
+    width: 12%;
+    height: auto;
+    border: solid 3px #e9967a; /*#96DA01*/
+}
+
+.aboutme-cv{
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 11%;
+    padding: 10px 20px;
+    border: solid 2px #e9967a;
+    border-radius: 6px;
+    outline: none;
+}
+.aboutme-contact{
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 0.5%;
+    margin-right: 5px;
+    padding: 10px 20px;
+    border: solid 2px #e9967a;
+    border-radius: 6px;
+    outline: none;
+}
+
+.button {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.aboutme-cv a:hover,
+.aboutme-contact a:hover{
+    transition: 1s;
+    color: #fa8072;
+}
+
+.aboutme-cv:hover,
+.aboutme-contact:hover {
+    cursor: pointer;
+    transition: 1s;
+    background: #404040;
+    color: #fa8072;
 }
