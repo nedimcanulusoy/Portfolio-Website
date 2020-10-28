@@ -1,0 +1,140 @@
+html {
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+}
+
+body {
+  font-weight: lighter;
+  margin: 0;
+  background-color: #262626;
+}
+
+body #myname {
+  font-size: 35px;
+}
+
+body #description {
+  font-size: 20px;
+  padding-top: 1%;
+}
+
+.center_img {
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+  width: 12%;
+  height: auto;
+  border: solid 3px salmon; /*#96DA01*/
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  display: inline;
+  float: left;
+}
+
+.navbar ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262626;
+}
+
+.navbar li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a.active {
+  color: salmon;
+}
+
+#logo-name {
+  font-style: italic;
+}
+
+#logo-name ul {
+  float: left;
+}
+
+#logo-name li {
+  float: right;
+}
+
+#text-main h1 {
+  padding: 0%;
+  margin-left: 40%;
+  margin-right: 40%;
+  color: #ffffff;
+  text-align: center;
+}
+
+#text-main h2 {
+  margin-left: 25%;
+  margin-right: 25%;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: center;
+}
+
+.network {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.fb {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: solid 2px salmon;
+}
+
+.fb:hover {
+  transition: 1s;
+  opacity: 0.7;
+}
+
+.github {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: solid 2px salmon;
+}
+
+.github:hover {
+  opacity: 0.7;
+}
+
+.linkedin {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: solid 2px salmon;
+}
+
+.linkedin:hover {
+  opacity: 0.7;
+}
+
+.google {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: solid 2px salmon;
+}
+
+.google:hover {
+  opacity: 0.7;
+}
