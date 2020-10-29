@@ -17,6 +17,7 @@ body #myname {
 body #description {
     font-size: 20px;
     padding-top: 1%;
+
 }
 
 .center_img {
@@ -31,6 +32,7 @@ body #description {
 }
 
 .navbar {
+    font-family: "Source Code Pro", monospace;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -304,5 +306,65 @@ body #superscription{
 
 .header-aboutme{
     margin-top: 6%;
-    color: salmon;
+    color: #e9967a;
 }
+
+hr.solid{
+    border: 1px solid #e9967a;
+    margin-right: 300px;
+    opacity: 50%;
+
+}
+
+.text-aboutme p{
+    color: #ffffff;
+    margin-right: 300px;
+    font-weight: bold;
+}
+
+.header-awards{
+    margin-top: 4%;
+    color: #e9967a;
+}
+
+.header-interests{
+    margin-top: 2%;
+    margin-bottom: 20px;
+    color: #e9967a;
+}
+
+.backNfront{
+    margin-top: 20px;
+}
+
+.back,
+.front,
+.backText,
+.frontText{
+    text-align: center;
+    display: inline;
+}
+
+.back,
+.front{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.backText,
+.frontText{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.back:hover,
+.front:hover{
+    transition: 1s;
+    opacity: 0.3;
+}
+
+.header-skills{
+    margin-top: 2%;
+    color: #e9967a;
+}
+
