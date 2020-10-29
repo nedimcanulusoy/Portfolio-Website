@@ -122,21 +122,11 @@ body #description {
     color: #ffffff;
 }
 
-#text-main .aboutme a:hover,
-#text-main .cv a:hover,
-#text-main .contact a:hover{
-    transition: 1s;
+.button:hover {
     color: #fa8072;
-}
-
-#text-main .aboutme:hover,
-#text-main .cv:hover,
-#text-main .contact:hover{
-    cursor: pointer;
     transition: 1s;
     background: #404040;
 }
-
 
 .network {
     text-align: center;
@@ -156,7 +146,7 @@ body #description {
 .github:hover,
 .linkedin:hover {
     transition: 0.5s;
-    opacity: 0.6;
+    opacity: 0.3;
     font-size: 120%;
 }
 
@@ -166,11 +156,28 @@ body #description {
     display: block;
     margin-top: 7%;
     margin-left: 10%;
-    /*margin-right: auto;*/
     border-radius: 20%;
     width: 12%;
     height: auto;
     border: solid 3px #e9967a; /*#96DA01*/
+}
+
+
+body #myname-aboutme{
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #ffffffff;
+}
+
+body #superscription{
+    text-align: left;
+    margin-left: 9%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #ffffffff;
+
 }
 
 .navbar-aboutme {
@@ -229,7 +236,7 @@ body #description {
 .aboutme-cv{
     text-align: center;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 2%;
     margin-left: 11%;
     padding: 10px 20px;
     border: solid 2px #e9967a;
@@ -239,7 +246,7 @@ body #description {
 .aboutme-contact{
     text-align: center;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 2%;
     margin-left: 0.5%;
     margin-right: 5px;
     padding: 10px 20px;
@@ -248,21 +255,54 @@ body #description {
     outline: none;
 }
 
-.button {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.aboutme-cv a:hover,
-.aboutme-contact a:hover{
-    transition: 1s;
-    color: #fa8072;
-}
-
 .aboutme-cv:hover,
 .aboutme-contact:hover {
     cursor: pointer;
     transition: 1s;
     background: #404040;
     color: #fa8072;
+}
+
+
+.network-aboutme{
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 11%;
+    padding-top: 20px;
+
+}
+
+.fb-me,
+.github-me,
+.linkedin-me {
+    margin-left: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-bottom: solid 2px #fa8072;
+
+}
+
+.fb-me:hover,
+.github-me:hover,
+.linkedin-me:hover {
+    transition: 0.5s;
+    opacity: 0.3;
+    font-size: 120%;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+}
+
+.right-main { grid-area: 1 / 2 / 2 / 3; }
+
+.left-main { grid-area: 1 / 1 / 2 / 3; }
+
+.header-aboutme{
+    margin-top: 6%;
+    color: salmon;
 }
