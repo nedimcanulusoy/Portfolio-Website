@@ -17,8 +17,13 @@ function typeWriter(handler) {
 $(document).ready(() => {
   typeWriter(function () {
     $("#description").fadeIn(1800);
+    $("#descr-aboutme").fadeIn(1800);
+    $("#descr-cv").fadeIn(1800);
+    $("#descr-contact").fadeIn(1800);
   });
 });
+
+
 
 /*
  
