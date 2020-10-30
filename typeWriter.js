@@ -1,6 +1,6 @@
 var i = 0;
 var txt = "Nedim Can Ulusoy";
-var speed = 75;
+var speed = 80;
 
 function typeWriter(handler) {
   if (i < txt.length) {
@@ -16,7 +16,7 @@ function typeWriter(handler) {
 
 $(document).ready(() => {
   typeWriter(function () {
-    $("#description").fadeIn("slow");
+    $("#description").fadeIn(1800);
   });
 });
 
