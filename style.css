@@ -169,20 +169,20 @@ body #description {
 
 body #myname-aboutme {
     text-align: left;
-    margin-left: 8%;
-    margin-top: 2%;
-    margin-bottom: 1%;
+    margin-left: 5em;
+    margin-top: 1em;
     color: #ffffffff;
 }
 
 body #superscription {
-    text-align: left;
-    margin-left: 9%;
-    margin-top: 2%;
-    margin-bottom: 1%;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 9em;
+    margin-bottom: 2em;
     color: #ffffffff;
-
 }
+
 
 .navbar-aboutme {
     margin: 0;
@@ -325,7 +325,7 @@ hr.solid {
 
 .text-aboutme p {
     color: #ffffff;
-    margin-right: 300px;
+    margin-right: 320px;
     font-weight: bold;
 }
 
@@ -399,7 +399,7 @@ hr.solid {
 .html5,
 .css3,
 .mysql,
-.git{
+.git {
     margin-top: 14px;
     align-items: center;
     color: #ffffff;
@@ -423,3 +423,18 @@ hr.solid {
     color: #e9967a;
 }
 
+.footer-info {
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+
+}
+
+.footer-info:hover{
+    transition: 1s;
+    cursor: default;
+    color: #e9967a;
+}
