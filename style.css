@@ -410,6 +410,10 @@ hr.solid {
     color: #e9967a;
 }
 
+.projects li {
+    list-style-type: none;
+}
+
 .projects a{
     font-size: 18px;
     text-decoration: none;
